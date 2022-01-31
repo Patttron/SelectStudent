@@ -3,7 +3,7 @@
     android:shareInterpolator="false" >
 
     <scale
-        android:duration="3000"
+        android:duration="2000"
         android:fillAfter="false"
         android:fromXScale="1.0"
         android:fromYScale="1.0"
@@ -16,7 +16,7 @@
     <set android:interpolator="@android:anim/decelerate_interpolator" >
 
         <scale
-            android:duration="2000"
+            android:duration="1000"
             android:fillBefore="false"
             android:fromXScale="1.4"
             android:fromYScale="0.6"
@@ -27,7 +27,7 @@
             android:toYScale="0.0" />
 
         <rotate
-            android:duration="2000"
+            android:duration="1000"
             android:fromDegrees="0"
             android:pivotX="50%"
             android:pivotY="50%"
