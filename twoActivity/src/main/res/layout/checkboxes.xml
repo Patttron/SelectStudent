@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Checkboxes">
+
+    <LinearLayout
+        android:id="@+id/liner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <CheckBox
+            android:id="@+id/Stas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClick"
+            android:text="Stas"
+            android:textAlignment="gravity" />
+
+        <CheckBox
+            android:id="@+id/Alex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClick"
+            android:text="Alex" />
+
+        <CheckBox
+            android:id="@+id/Sasha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClick"
+            android:text="Sasha" />
+
+        <CheckBox
+            android:id="@+id/Marina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClick"
+            android:text="Marina" />
+
+        <CheckBox
+            android:id="@+id/Nadezhda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClick"
+            android:text="Nadezhda" />
+
+        <CheckBox
+            android:id="@+id/Natali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClick"
+            android:text="Natali" />
+
+        <CheckBox
+            android:id="@+id/Dasha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClick"
+            android:text="Dasha" />
+
+        <CheckBox
+            android:id="@+id/Dima"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClick"
+            android:text="Dima" />
+
+        <CheckBox
+            android:id="@+id/Egor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClick"
+            android:text="Egor" />
+
+        <CheckBox
+            android:id="@+id/Anton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClick"
+            android:text="Anton" />
+
+        <CheckBox
+            android:id="@+id/Nastya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClick"
+            android:text="Nastya" />
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            tools:ignore="OnClick" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
