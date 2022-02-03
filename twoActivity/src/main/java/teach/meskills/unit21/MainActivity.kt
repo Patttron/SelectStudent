@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             if (resultCode == RESULT_OK) {
                 val students = data?.getStringArrayListExtra(EXTRA)
                 findViewById<Button>(R.id.roll).setOnClickListener {
-                    if (students!!.isNotEmpty()) {
+                    if (students?.isNotEmpty() == true) {
                         chosen.text = students?.get(Random.nextInt(students.size))
                     } else {
                         chosen.text = "Choose some student"
