@@ -1,7 +1,6 @@
 package teach.meskills.twofragments
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -39,7 +38,6 @@ class RecyclerViewFragment : Fragment() {
         recycler.adapter = adapter
         recycler.layoutManager = LinearLayoutManager(context)
         viewModel.students.observe(viewLifecycleOwner) { students ->
-            Log.d("qqqq", "${students}")
             adapter.submitList(students)
         }
         ok.setOnClickListener {
